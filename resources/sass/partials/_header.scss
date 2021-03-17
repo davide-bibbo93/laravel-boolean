@@ -1,0 +1,12 @@
+// HEader Settings
+
+header {
+  height: $headerHeight;
+  line-height: $headerHeight;
+  text-align: center;
+  background-color: $headerColor;
+}
+
+h1 {
+  color: $textColor;
+}

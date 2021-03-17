@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #182d3d;
+}
+
+header {
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  background-color: #132431;
+}
+
+h1 {
+  color: #c1c1c1;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+}
+.container .car {
+  width: calc(100% / 4 - 60px);
+  margin: 30px;
+  text-align: center;
+}
+.container .car img {
+  width: 100%;
+}
+.container .car img:hover {
+  transform: scale(1.1);
+}
+.container .car h2 {
+  font-size: 32px;
+  color: #c1c1c1;
+  margin: 20px 0;
+  text-align: left;
+}
+.container .car p {
+  font-size: 24px;
+  text-align: left;
+  padding: 10px 0;
+}
